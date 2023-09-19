@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 from annoy import AnnoyIndex
 
 # Load the dataset
-df = pd.read_csv('/Users/nada/Desktop/NLP_Project/faqHP.csv')
+df = pd.read_csv('NLP_FAQ/faqHP.csv')
 # Basic preprocessing
 df['question'] = df['question'].str.lower()
 df['answer'] = df['answer'].str.lower()
