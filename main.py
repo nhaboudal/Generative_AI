@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 from annoy import AnnoyIndex
 
 # Load the dataset
-url = "https://raw.githubusercontent.com/nhaboudal/NLP_FAQ/main/faqHP.csv"
+url = "https://raw.githubusercontent.com/nhaboudal/Generative_AI/main/FAQ.csv"
 df = pd.read_csv(url)
 # Basic preprocessing
 df['question'] = df['question'].str.lower()
